@@ -12,18 +12,12 @@ a {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.header .textindex {
-  position: relative;
-  content: "";
-  width: 676px;
-  height: 183px;
-  border: 2px solid #d8007f;
-  top: 40%;
-  left: 14%; }
-.header h1 {
+.header .cont-tit .tit-header {
+  border: 1px solid #d7007f;
+  padding-left: 10px;
+  max-width: 600px;
   color: white;
-  font-weight: 500; }
-.header .tit-header {
+  font-weight: 500;
   font-weight: 500;
   font-size: 70px; }
 
@@ -135,10 +129,11 @@ a {
   font-weight: 400;
   padding-top: 20px; }
 .portafolio .img-final {
-  margin-top: 80px;
-  height: 189px;
-  background-size: contain;
-  background-repeat: no-repeat; }
+  background: url("../img/tira-foto-final.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 200px; }
 
 .contacto .form-control {
   border: 1px solid #2a1d17; }
