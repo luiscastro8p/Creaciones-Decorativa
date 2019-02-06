@@ -20,13 +20,13 @@
         }
         
         .header {
-            .cont-tit{
+            .cont-tit {
                 .tit-header {
-                    border: 1px solid #d7007f;
-                    padding-left: 10px;
-                    max-width: 600px;
+                    border: 2px solid #d7007f;
+                    padding-left: 13px;
+                    padding-right: 10px;
+                    max-width: 650px;
                     color: white;
-                    font-weight: 500;
                     font-weight: 500;
                     font-size: 70px;
                 }
@@ -116,11 +116,16 @@
                 }
                 .button {
                     position: absolute;
-                    background-color: white;
+                    background-color: #ffffff!important;
                     color: black;
-                    border: 1px solid #e7e7e7;
+                    border: 1px solid #e7e7e7!important;
                     display: flex;
                     float: right;
+                    left: 1000px;
+                    top: 350px;
+                    padding: 5px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
         }
@@ -174,11 +179,12 @@
                 padding-top: 20px;
             }
             .img-final {
+                margin-top: 100px;
                 background: url("../img/tira-foto-final.png");
                 background-repeat: no-repeat;
-                width: 100%;
                 background-size: cover;
                 height: 200px;
+                width: 100%;
             }
         }
         
@@ -191,6 +197,9 @@
                 margin-top: 160px;
                 margin-right: 40px;
                 float: right;
+            }
+            .margen {
+                margin-top: 80px;
             }
             p {
                 font-size: 20px;
@@ -219,9 +228,11 @@
                 border: 1px solid #d7007f;
             }
             .cont-contacto {
+                margin-left: 70px;
                 max-width: 560px;
                 padding: 50px;
                 position: relative;
+                margin-top: 0rem!important;
             }
             .cont-contacto::after {
                 position: absolute;

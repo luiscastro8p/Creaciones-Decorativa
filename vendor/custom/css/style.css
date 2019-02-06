@@ -13,11 +13,11 @@ a {
   background-repeat: no-repeat; }
 
 .header .cont-tit .tit-header {
-  border: 1px solid #d7007f;
-  padding-left: 10px;
-  max-width: 600px;
+  border: 2px solid #d7007f;
+  padding-left: 13px;
+  padding-right: 10px;
+  max-width: 650px;
   color: white;
-  font-weight: 500;
   font-weight: 500;
   font-size: 70px; }
 
@@ -88,13 +88,18 @@ a {
     margin-top: 70px; }
   .catalogo .container.fondo .button {
     position: absolute;
-    background-color: white;
+    background-color: #ffffff !important;
     color: black;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #e7e7e7 !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    float: right; }
+    float: right;
+    left: 1000px;
+    top: 350px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px; }
 
 .portafolio .img-portafolio {
   float: right; }
@@ -129,11 +134,12 @@ a {
   font-weight: 400;
   padding-top: 20px; }
 .portafolio .img-final {
+  margin-top: 100px;
   background: url("../img/tira-foto-final.png");
   background-repeat: no-repeat;
-  width: 100%;
   background-size: cover;
-  height: 200px; }
+  height: 200px;
+  width: 100%; }
 
 .contacto .form-control {
   border: 1px solid #2a1d17; }
@@ -141,6 +147,8 @@ a {
   margin-top: 160px;
   margin-right: 40px;
   float: right; }
+.contacto .margen {
+  margin-top: 80px; }
 .contacto p {
   font-size: 20px;
   font-weight: 600;
@@ -161,9 +169,11 @@ a {
   float: right;
   border: 1px solid #d7007f; }
 .contacto .cont-contacto {
+  margin-left: 70px;
   max-width: 560px;
   padding: 50px;
-  position: relative; }
+  position: relative;
+  margin-top: 0rem !important; }
 .contacto .cont-contacto::after {
   position: absolute;
   content: "";
