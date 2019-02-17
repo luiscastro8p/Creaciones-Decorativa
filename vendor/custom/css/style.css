@@ -225,3 +225,12 @@ a {
   .cont-tit .tit-header {
     font-size: 56px !important;
     padding-left: 0px !important; } }
+@media (max-width: 575px) {
+  .quienessomos .frame {
+    width: 328px;
+    height: 475px;
+    top: 86px;
+    left: 117px; }
+  .quienessomos .img-qsomos {
+    top: 43px;
+    left: -71px; } }
