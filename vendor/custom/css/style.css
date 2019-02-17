@@ -19,14 +19,25 @@ a {
   max-width: 650px;
   color: white;
   font-weight: 500;
-  font-size: 70px; }
+  font-size: 70px;
+  line-height: 1; }
 
+.quienessomos h4 {
+  border: 1px solid #e23e9d;
+  padding: 10px;
+  width: 500px;
+  height: 110px;
+  text-align: justify; }
+.quienessomos p {
+  font-weight: 600; }
 .quienessomos .tit-qsomos {
   text-align: center;
   width: 300px;
   color: #000;
-  border: 1px solid #d8007f; }
+  border: 1px solid #d8007f;
+  margin-bottom: -0.3em; }
 .quienessomos .cont-parrafo {
+  max-height: 200px;
   max-width: 560px;
   padding: 50px;
   position: relative; }
@@ -59,47 +70,36 @@ a {
   background: transparent;
   border: 1px solid #d8007f;
   top: 20px;
-  left: -20px;
+  left: -10px;
   z-index: -1; }
 
-.quienessomos {
-  padding-top: 150px !important; }
-  .quienessomos h4 {
-    border: 1px solid #e23e9d;
-    padding: 10px;
-    width: 500px;
-    height: 110px;
-    text-align: justify; }
-  .quienessomos p {
-    font-weight: 600; }
-
-.catalogo .container.fondo {
-  position: relative;
-  background: url("../img/tira-tres-img.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 650px;
-  margin-top: 250px; }
-  .catalogo .container.fondo h1 {
-    color: white;
-    font-weight: 400;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 70px; }
-  .catalogo .container.fondo .button {
-    position: absolute;
-    background-color: #ffffff !important;
-    color: black;
-    border: 1px solid #e7e7e7 !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    float: right;
-    left: 1000px;
-    top: 350px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px; }
+.catalogo {
+  height: 635px; }
+  .catalogo .container.fondo {
+    position: relative;
+    background: url("../img/tira-tres-img.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .catalogo .container.fondo h1 {
+      color: white;
+      font-weight: 400;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 30px; }
+    .catalogo .container.fondo .btn {
+      position: absolute;
+      background-color: #ffffff !important;
+      color: black !important;
+      border: 1px solid #e7e7e7 !important;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      float: right;
+      right: 40px;
+      bottom: 40px;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px; }
 
 .portafolio .img-portafolio {
   float: right; }
@@ -164,10 +164,10 @@ a {
   background: black !important;
   border: 1px solid #000 !important; }
 .contacto .btn {
-  background: #d7007f !important;
-  color: white !important;
+  color: black !important;
   float: right;
-  border: 1px solid #d7007f; }
+  border: 1px solid #d7007f;
+  background-color: white !important; }
 .contacto .cont-contacto {
   margin-left: 70px;
   max-width: 560px;
@@ -200,3 +200,28 @@ a {
   margin-top: 200px; }
   .footer .negrita {
     font-weight: 800; }
+
+@media (max-width: 1200px) {
+  .quienessomos .frame {
+    width: 270px;
+    height: 440px; } }
+@media (max-width: 992px) {
+  .quienessomos .frame {
+    width: 215px;
+    height: 320px; } }
+@media (max-width: 767px) {
+  .cont-tit .tit-header {
+    font-size: 56px !important; }
+
+  .quienessomos .frame {
+    width: 336px;
+    height: 481px;
+    top: 86px;
+    left: 75px; }
+  .quienessomos .img-qsomos {
+    top: 43px;
+    left: -71px; } }
+@media (max-width: 536px) {
+  .cont-tit .tit-header {
+    font-size: 56px !important;
+    padding-left: 0px !important; } }

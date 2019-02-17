@@ -29,19 +29,33 @@
                     color: white;
                     font-weight: 500;
                     font-size: 70px;
+                    line-height: 1;
                 }
             }
         }
         
         //quienes somos     
         .quienessomos {
+            // padding-top: 150px!important;
+            h4 {
+                border: 1px solid rgb(226, 62, 157);
+                padding: 10px;
+                width: 500px;
+                height: 110px;
+                text-align: justify;
+            }
+            p {
+                font-weight: 600;
+            }
             .tit-qsomos {
                 text-align: center;
                 width: 300px;
                 color: #000;
                 border: 1px solid #d8007f;
+                margin-bottom: -0.3em;
             }
             .cont-parrafo {
+                max-height: 200px;
                 max-width: 560px;
                 padding: 50px;
                 position: relative;
@@ -78,51 +92,35 @@
                 background: transparent;
                 border: 1px solid #d8007f;
                 top: 20px;
-                left: -20px;
+                left: -10px;
                 z-index: -1;
             }
         }
         
-        //SECCION QUIENES SOMOS 
-        .quienessomos {
-            h4 {
-                border: 1px solid rgb(226, 62, 157);
-                padding: 10px;
-                width: 500px;
-                height: 110px;
-                text-align: justify;
-            }
-            p {
-                font-weight: 600;
-            }
-            padding-top: 150px!important;
-        }
-        
         //SECCION CATALOGO
         .catalogo {
+            height: 635px;
             .container.fondo {
                 position: relative;
                 background: url("../img/tira-tres-img.png");
-                background-size: contain;
+                background-size: cover;
                 background-repeat: no-repeat;
-                height: 650px;
-                margin-top: 250px;
                 h1 {
                     color: white;
                     font-weight: 400;
                     font-size: 40px;
                     text-align: center;
-                    margin-top: 70px;
+                    margin-top: 30px;
                 }
-                .button {
+                .btn {
                     position: absolute;
                     background-color: #ffffff!important;
-                    color: black;
+                    color: black!important;
                     border: 1px solid #e7e7e7!important;
                     display: flex;
                     float: right;
-                    left: 1000px;
-                    top: 350px;
+                    right: 40px;
+                    bottom: 40px;
                     padding: 5px;
                     padding-left: 10px;
                     padding-right: 10px;
@@ -222,10 +220,10 @@
                 }
             }
             .btn {
-                background: #d7007f!important;
-                color: white!important;
+                color: black!important;
                 float: right;
                 border: 1px solid #d7007f;
+                background-color: white!important;
             }
             .cont-contacto {
                 margin-left: 70px;
@@ -264,5 +262,52 @@
             margin-top: 200px;
             .negrita {
                 font-weight: 800;
+            }
+        }
+        
+        @media(max-width: 1200px) {
+            .quienessomos {
+                .frame {
+                    width: 270px;
+                    height: 440px;
+                }
+            }
+        }
+        
+        @media(max-width: 992px) {
+            .quienessomos {
+                .frame {
+                    width: 215px;
+                    height: 320px;
+                }
+            }
+        }
+        
+        @media(max-width: 767px) {
+            .cont-tit {
+                .tit-header {
+                    font-size: 56px!important;
+                }
+            }
+            .quienessomos {
+                .frame {
+                    width: 336px;
+                    height: 481px;
+                    top: 86px;
+                    left: 75px;
+                }
+                .img-qsomos {
+                    top: 43px;
+                    left: -71px;
+                }
+            }
+        }
+        
+        @media(max-width: 536px) {
+            .cont-tit {
+                .tit-header {
+                    font-size: 56px!important;
+                    padding-left: 0px!important;
+                }
             }
         }
