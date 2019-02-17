@@ -105,7 +105,7 @@ a {
   float: right; }
 .portafolio .frame .tit-cliente h1 {
   text-align: center;
-  width: 250px;
+  width: 288px;
   height: 79px;
   color: #000;
   border: 1.2px solid #d8007f;
@@ -205,32 +205,49 @@ a {
   .quienessomos .frame {
     width: 270px;
     height: 440px; } }
+@media (max-width: 1199px) {
+  .contacto .cont-contacto {
+    margin-left: 218px; } }
+@media (max-width: 1017px) {
+  .cont-contacto {
+    margin-left: 0px; } }
 @media (max-width: 992px) {
   .quienessomos .frame {
     width: 215px;
-    height: 320px; } }
+    height: 320px; }
+
+  .contacto .cont-contacto {
+    margin-left: 91px; } }
 @media (max-width: 767px) {
-  .cont-tit .tit-header {
-    font-size: 56px !important; }
+  .contacto .cont-contacto {
+    margin-left: 36px; }
+
+  .header .cont-tit .tit-header {
+    font-size: 56px; }
 
   .quienessomos .frame {
-    width: 336px;
-    height: 481px;
-    top: 86px;
-    left: 75px; }
+    width: 318px;
+    height: 468px;
+    left: 84px;
+    top: 80px; }
   .quienessomos .img-qsomos {
     top: 43px;
     left: -71px; } }
-@media (max-width: 536px) {
-  .cont-tit .tit-header {
-    font-size: 56px !important;
-    padding-left: 0px !important; } }
 @media (max-width: 575px) {
   .quienessomos .frame {
-    width: 328px;
-    height: 475px;
-    top: 86px;
-    left: 117px; }
+    display: none; }
   .quienessomos .img-qsomos {
     top: 43px;
-    left: -71px; } }
+    left: -71px; }
+  .quienessomos .header .cont-tit .tit-header {
+    max-width: 650px;
+    color: white;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 1; } }
+@media (max-width: 570px) {
+  .header .cont-tit .tit-header {
+    font-size: 58px; } }
+@media (max-width: 536px) {
+  .header .cont-tit .tit-header {
+    font-size: 55px; } }
