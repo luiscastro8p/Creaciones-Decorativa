@@ -316,15 +316,18 @@
             }
         }
         .quienessomos {
+            .imagen-q-somos {
+                display: flex;
+                justify-content: center;
+                .img-qsomos {
+                    margin-top: 30px;
+                }
+            }
             .frame {
                 width: 318px;
                 height: 468px;
                 left: 84px;
                 top: 80px;
-            }
-            .img-qsomos {
-                top: 43px;
-                left: -71px;
             }
         }
     }
@@ -333,10 +336,6 @@
         .quienessomos {
             .frame {
                 display: none;
-            }
-            .img-qsomos {
-                top: 43px;
-                left: -71px;
             }
             .header {
                 .cont-tit {
@@ -368,6 +367,15 @@
                 .tit-header {
                     font-size: 55px;
                 }
+            }
+        }
+    }
+    
+    @media(max-width: 404px) {
+        .quienessomos {
+            .cont-parrafo {
+                max-height: unset;
+                height: 280px;
             }
         }
     }

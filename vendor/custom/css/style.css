@@ -225,20 +225,23 @@ a {
   .header .cont-tit .tit-header {
     font-size: 56px; }
 
+  .quienessomos .imagen-q-somos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .quienessomos .imagen-q-somos .img-qsomos {
+      margin-top: 30px; }
   .quienessomos .frame {
     width: 318px;
     height: 468px;
     left: 84px;
-    top: 80px; }
-  .quienessomos .img-qsomos {
-    top: 43px;
-    left: -71px; } }
+    top: 80px; } }
 @media (max-width: 575px) {
   .quienessomos .frame {
     display: none; }
-  .quienessomos .img-qsomos {
-    top: 43px;
-    left: -71px; }
   .quienessomos .header .cont-tit .tit-header {
     max-width: 650px;
     color: white;
@@ -251,3 +254,7 @@ a {
 @media (max-width: 536px) {
   .header .cont-tit .tit-header {
     font-size: 55px; } }
+@media (max-width: 404px) {
+  .quienessomos .cont-parrafo {
+    max-height: unset;
+    height: 280px; } }
