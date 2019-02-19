@@ -32,19 +32,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes somos</a>
+                        <a class="nav-link" href="#qsomos">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Catálogo</a>
+                        <a class="nav-link" href="#catalogo">Catálogo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portafolio</a>
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -53,16 +53,17 @@
 
 
     <!-- TEXTO DE INICIO-->
-    <header class="header">
+    <header class="header" id="inicio">
         <div class="container h-100">
-            <div class="cont-tit h-100 d-flex flex-column justify-content-center">
+            <div class="cont-tit h-100 d-flex flex-column justify-content-center wow slideInRight " data-wow-duration="2s">
                 <h1 class="tit-header">En donde tus ideas se hacen realidad</h1>
             </div>
         </div>
     </header>
 
+
     <!-- SECCION QUIENES SOMOS -->
-    <section class="quienessomos py-5">
+    <section class="quienessomos py-5" id="qsomos">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-7">
@@ -81,7 +82,7 @@
     </section>
 
     <!-- SECCION CATALOGO -->
-    <section class="catalogo py-5">
+    <section class="catalogo py-5" id="catalogo">
         <div class="container h-100">
             <div class="container fondo h-100">
                 <div class="row h-100">
@@ -95,7 +96,7 @@
 
 
     <!-- PORTAFOLIO -->
-    <section class="portafolio">
+    <section class="portafolio" id="portafolio">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -148,7 +149,7 @@
     </section>
 
     <!-- CONTACTO -->
-    <section class="contacto">
+    <section class="contacto" id="contacto">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -198,7 +199,10 @@
                 </div>
             </div>
         </div>
+        <iframe class="py-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d898.097506184514!2d-108.98771765830229!3d25.79070383437708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ba2f40a7c4fe29%3A0xa8963c7ea6158ab4!2sCREACIONES+DECORATIVAS+ALMA+PERSIANAS+Y+CORTINAS!5e0!3m2!1ses!2smx!4v1550427889505"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
+
 
     <!--Foooter-->
     <footer class="footer">
@@ -238,6 +242,10 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/custom/owl-carousel/owl.carousel.js"></script>
     <script src="vendor/custom/js/wow.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 
